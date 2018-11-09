@@ -1,0 +1,21 @@
+<h1>Seja bem vindo!</h1>
+
+<p>
+    <%= @parametro_url %>
+</p>
+
+<%= render "menu" %>
+
+<p> A soma é: <%= 1 + 1  %> </p>
+<p> Seu nome de tráz para frente é: <%= "Kleber".reverse %></p>
+
+<% a = "variavel a" %>
+<p>Imprimindo : <%= a %></p>
+
+<p> <b>Data: </b> <%= data_br(Date.today) %> </p>
+
+<p>
+Você está em ambiente de <strong><%= ambiente_rails %></strong>
+</p>
+
+<p> <strong><%= @var_sessao %></strong>  </p>
