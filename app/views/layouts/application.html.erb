@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>CryptoWallet</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <title>CryptoWallet</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
 
-  <body>
-    <h1>CABEÇALHO</h1>
-    <%= yield %>
-    <h1>RODAPÉ</h1>
-  </body>
+<body>
+
+<h1 class="text_violeta">Cabeçalho público</h1>
+
+<fieldset>
+  <%= yield %>
+</fieldset>
+
+<h1 class="text_violeta">Rodapé público</h1>
+
+</body>
 </html>
