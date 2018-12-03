@@ -1,24 +1,9 @@
-# README
+# COMANDO APRENDIDOS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Associação com outra tabela. <br />
+Passos:
 
-Things you may want to cover:
+1 ) Criar uma nova migração ( BANCO ): <br/>
+ https://edgeguides.rubyonrails.org/active_record_migrations.html#creating-a-standalone-migration <br />
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+3 ) Definir a relação na model ( MODEL ) <br />

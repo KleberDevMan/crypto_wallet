@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
-  get 'welcome/index'#, to: 'welcome#index'
-  #get '/inicio', to: 'welcome#index'
-  
-  resources :coins # 7 rotas (CRUD)
-  #get '/coins', to: 'coins#index'
-  
-  
-  root to: 'welcome#index' 
+
+  resources :mining_types
+  # MOSTRA TODAS AS ROTAS
+  # http://localhost:3000/rails/info/routes
+
+  get 'welcome/index' #, to: 'welcome#index'
+
+  resources :coins # 7 ROTAS (CRUD)
+
+
+  root to: 'welcome#index'
 end
