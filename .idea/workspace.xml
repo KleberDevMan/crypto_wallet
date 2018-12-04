@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff7731eb-fec4-4f48-8998-ce9058aed577" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/crypto-wallet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crypto-wallet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/coin.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/coin.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/mining_type.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/mining_type.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tasks/dev.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/dev.rake" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -54,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="460">
-                <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <first_editor relative-caret-position="519">
+                <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
               </first_editor>
               <second_editor />
             </state>
@@ -340,12 +330,12 @@
       <workItem from="1543607092421" duration="2681000" />
       <workItem from="1543857308090" duration="2653000" />
       <workItem from="1543866219493" duration="4666000" />
-      <workItem from="1543939148392" duration="4870000" />
+      <workItem from="1543939148392" duration="5284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14870000" />
+    <option name="totallyTimeSpent" value="15284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -561,8 +551,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="460">
-            <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <first_editor relative-caret-position="519">
+            <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           </first_editor>
           <second_editor />
         </state>

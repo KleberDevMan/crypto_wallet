@@ -1,35 +1,31 @@
 # COMANDO APRENDIDOS
 
-Associação com outra tabela. <br />
-Passos:
+<b>Associação com outra tabela</b> <br />
 
-1 ) Criar uma nova migração ( BANCO ): <br/>
- https://edgeguides.rubyonrails.org/active_record_migrations.html#creating-a-standalone-migration <br />
-Ex:
-- AddMiningTypeToCoins
--
-
-3 ) Definir a relação na model ( MODEL ) <br />
-
+Passos:<br>
+1) Criar uma nova migração ( BANCO ):
+https://edgeguides.rubyonrails.org/active_record_migrations.html#creating-a-standalone-migration
+    <br>Ex:
+    - AddMiningTypeToCoins
+    
+2) Definir a relação na model ( MODEL ) <br />
 https://guides.rubyonrails.org/association_basics.html#the-belongs-to-association <br />
 Ex:
-- belongs_to <br>
-- 
-
-
-4 ) Definar a relação na outra ( MODEL )
+    - belongs_to <br>
+    
+3) Definar a relação na outra ( MODEL )
 https://guides.rubyonrails.org/association_basics.html#the-belongs-to-association<br>
 Ex:
-- has_many<br/>
--
+    - has_many<br/>
 
------------
+
+----
 
 Valor aleatório de um array:
 >> a = [1,2,45] <br>
 >> a.sample
 
-------------
+----
 
 <b>Buscas</b> <br/>
 retorna multiplos resultados:<br>
