@@ -32,12 +32,5 @@ ActiveRecord::Schema.define(version: 2018_12_03_203555) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "produtos", force: :cascade do |t|
-    t.string "name"
-    t.string "price"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   add_foreign_key "coins", "mining_types"
 end
