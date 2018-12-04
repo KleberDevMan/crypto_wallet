@@ -42,3 +42,13 @@ Ver tasks
 >> rails -T dev <br />
 
 ---
+#####Arquivos .yml<br>
+arquivos de dados.
+
+---
+i18n = Internacionalization
+
+---
+
+
+

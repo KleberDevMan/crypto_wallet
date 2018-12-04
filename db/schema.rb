@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_03_203555) do
+ActiveRecord::Schema.define(version: 2018_12_04_200339) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,10 +26,10 @@ ActiveRecord::Schema.define(version: 2018_12_03_203555) do
   end
 
   create_table "mining_types", force: :cascade do |t|
-    t.string "name"
     t.string "acronym"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "description"
   end
 
   add_foreign_key "coins", "mining_types"

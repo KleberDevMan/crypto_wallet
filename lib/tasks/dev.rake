@@ -66,11 +66,11 @@ namespace :dev do
   task add_mining_types: :environment do
     mining_types = [
         {
-            name: 'Prool of Work',
+            description: 'Prool of Work',
             acronym: 'PoW'
         },
         {
-            name: 'Prool of Stake',
+            description: 'Prool of Stake',
             acronym: 'Pos'
         }
     ]
