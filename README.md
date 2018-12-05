@@ -46,8 +46,8 @@ Ver tasks
 é um arquivos de dados.
 
 ---
-i18n = Internacionalization <https://guides.rubyonrails.org/i18n.html>
-<br>ATIVAÇÃO
+i18n = Internacionalization<br> <https://guides.rubyonrails.org/i18n.html>
+<br><br>ATIVAÇÃO
 1. add gem 
 2. add arquivo locale.rb
 3. configura os idiomas
