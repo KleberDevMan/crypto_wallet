@@ -42,13 +42,36 @@ Ver tasks
 >> rails -T dev <br />
 
 ---
-#####Arquivos .yml<br>
-arquivos de dados.
+<b>Arquivo.yml</b><br>
+é um arquivos de dados.
 
 ---
-i18n = Internacionalization
+i18n = Internacionalization <https://guides.rubyonrails.org/i18n.html>
+<br>ATIVAÇÃO
+1. add gem 
+2. add arquivo locale.rb
+3. configura os idiomas
+
+USO
+
+    I18n.t('hello') #chama uma chave lá do locales
+    I18n.l() #formata para o padrão local
+
+PARA AS MODELS
+
+    Coin.human_attribute_name(:url_image)
 
 ---
 
+<b>Ternario</b><br>
 
+    I18n.locale == :en ? "Estados Unidos" : "Português do Brasil"
 
+---
+COOKIES E SESSÃO
+    
+    # ARMAZENA COOKIE (NAVEGADOR)
+    cookies[:curso] = "."
+
+    # ARMAZENA SESSION (SESSION)
+    session[:curso] = "."

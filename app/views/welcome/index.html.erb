@@ -1,23 +1,32 @@
+<p>
+<ul>
+  <li><%#= link_to('Idioma Português', '/?locale=pt-BR') %><%= link_to 'Idioma Português', root_path(locale: 'pt-BR') %></li>
+  <li><%= link_to('Idioma English', root_path(locale: 'en')) %></li>
 
+</ul>
+</p>
 
 <legend><h1>Seja bem vindo!</h1></legend>
 
+<p>O idioma usado nessa aplicação é: <b><%= t('actual_locale') %></b></p>
+<p>Palavra 1: <b><%= t('hello') %></b></p>
+<p> Data: <b><%= l(Date.today) %></b></p>
+
 <p>
-    <%= @parametro_url %>
+  <%= @parametro_url %>
 </p>
 
 <%= render "menu" %>
 
-<p> A soma é: <%= 1 + 1  %> </p>
-<p> Seu nome de tráz para frente é: <%= "Kleber".reverse %></p>
+<p> A soma é: <b><%= 1 + 1 %></b></p>
+<p> Seu nome de tráz para frente é: <b><%= "Kleber".reverse %></b></p>
 
 <% a = "variavel a" %>
-<p>Imprimindo : <%= a %></p>
+<p>Imprimindo: <b><%= a %></b></p>
 
-<p> <b>Data: </b> <%= data_br(Date.today) %> </p>
 
 <p>
-Você está em ambiente de <strong><%= ambiente_rails %></strong>
+  Você está em ambiente de: <strong><%= ambiente_rails %></strong>
 </p>
 
-<p> <strong><%= @var_sessao %></strong>  </p>
+<p><b><%= @var_sessao %></b></p>
