@@ -1,5 +1,8 @@
 ### COMANDO APRENDIDOS
 
+Rails Guides<br>
+https://guides.rubyonrails.org/index.html
+
 ---
 
 ASSOCIACAO DE TABELAS E MODELs <br />
