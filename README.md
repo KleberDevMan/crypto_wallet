@@ -1,6 +1,8 @@
-# COMANDO APRENDIDOS
+### COMANDO APRENDIDOS
 
-<b>Associação com outra tabela</b> <br />
+---
+
+ASSOCIACAO DE TABELAS E MODELs <br />
 
 Passos:<br>
 1) Criar uma nova migração ( BANCO ):
@@ -20,29 +22,34 @@ Ex:
 
 
 ----
+ARRAY
 
 Valor aleatório de um array:
->> a = [1,2,45] <br>
->> a.sample
+
+    a = [1,2,45]
+    a.sample
 
 ----
 
-<b>Buscas</b> <br/>
+SELECT<br/>
 retorna multiplos resultados:<br>
->> MiningType.where(acronym: 'PoW')
+
+    MiningType.where(acronym: 'PoW')
 
 retorna único resultado<br>
->> MiningType.find(acronym: 'PoW')
+
+    MiningType.find(acronym: 'PoW')
 
 ---
 
-<b>Tasks</b><br />
+TASKS<br />
 Ver tasks
->> rails -T <br />
->> rails -T dev <br />
+    
+    rails -T
+    rails -T dev
 
 ---
-<b>Arquivo.yml</b><br>
+ARQUIVO.yml<br>
 é um arquivos de dados.
 
 ---
@@ -63,7 +70,7 @@ PARA AS MODELS
 
 ---
 
-<b>Ternario</b><br>
+TERNÁRIO<br>
 
     I18n.locale == :en ? "Estados Unidos" : "Português do Brasil"
 
