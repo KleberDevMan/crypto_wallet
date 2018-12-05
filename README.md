@@ -81,4 +81,22 @@ COOKIES E SESSÃO
     cookies[:curso] = "."
 
     # ARMAZENA SESSION (SESSION)
-    session[:curso] = "."
+    session[:curso] = "."    
+---
+ASSET PIPELINE
+<https://guides.rubyonrails.org/asset_pipeline.html>
+    
+-  Notas:
+    - Asset = JavaScript + CSS + Imagem
+    - gem sprockets-rails: minifica/concatena/comprime os assets
+    - uso de coffeScript e Sass
+    - Muda o nome do asset toda vez que recarrega a página (Fingerprint)
+    - É necessário o Note.js para que as gems que fazem a minificação do JS funcionem (ExecJS).
+<br><br><br>
+    - Os assets devem ficar em pastas específicas.
+        - <b>app/assets</b>: Para assets criados pelo próprio Rails
+        - <b>lib/assets</b>: Para assets que você mesmo criou
+        - <b>vendor</b>/assets: Para assets que você “pegou” de
+terceiros
+<br><br><br>
+    - 
