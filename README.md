@@ -102,4 +102,13 @@ ASSET PIPELINE
         - <b>vendor</b>/assets: Para assets que você “pegou” de
 terceiros
 <br><br><br>
-    - 
+    - Pré-compilando e isolando assets por controller:
+    
+    >><!--  import CSS-->
+        <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+        <%= stylesheet_link_tag 'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
+        <%= stylesheet_link_tag params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+      
+        <!--  import JavaScript-->
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+        <%= javascript_include_tag params[:controller], 'data-turbolinks-track': 'reload' %>
