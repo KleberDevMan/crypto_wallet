@@ -103,9 +103,7 @@ ASSET PIPELINE
 terceiros
 <br><br><br>
     - Pré-compilando e isolando assets por controller:
-    
-        
-         <!--  import CSS-->
+    >> <!--  import CSS-->
          <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
          <%= stylesheet_link_tag 'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
          <%= stylesheet_link_tag params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
