@@ -5,6 +5,23 @@ https://guides.rubyonrails.org/index.html
 
 ---
 
+LEVANTAR APLICAÇÃO
+
+1.Modo desenvolvimento
+> rails s 
+<br> rails c
+
+2 . Mode test
+> rails s -e test<br>
+ rails c -e test
+
+
+3 . Modo producao
+> rails s -e production<br>
+                        rails c -e production
+
+---
+
 ASSOCIACAO DE TABELAS E MODELs <br />
 
 Passos:<br>
@@ -96,18 +113,47 @@ ASSET PIPELINE
     - Muda o nome do asset toda vez que recarrega a página (Fingerprint)
     - É necessário o Note.js para que as gems que fazem a minificação do JS funcionem (ExecJS).
 <br><br><br>
-    - Os assets devem ficar em pastas específicas.
+    - Os assets devem ficar em pastas específicas. (mas todos ficam disponiveis para serem acessados publicamente em: <localhost/3000/assets/>)
         - <b>app/assets</b>: Para assets criados pelo próprio Rails
         - <b>lib/assets</b>: Para assets que você mesmo criou
         - <b>vendor</b>/assets: Para assets que você “pegou” de
 terceiros
 <br><br><br>
     - Pré-compilando e isolando assets por controller:
-    >> <!--  import CSS-->
-         <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-         <%= stylesheet_link_tag 'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
-         <%= stylesheet_link_tag params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
-       
-         <!--  import JavaScript-->
-         <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-         <%= javascript_include_tag params[:controller], 'data-turbolinks-track': 'reload' %>
+        
+             <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+             <%= stylesheet_link_tag 'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
+             <%= stylesheet_link_tag params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+           
+             <!--  import JavaScript-->
+             <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+             <%= javascript_include_tag params[:controller], 'data-turbolinks-track': 'reload' %>
+         
+    - Misturando Assets com codigo ruby
+        
+            /* codigo ruby + CSS + SCSS */
+            background-color: <%= Rails.env.development? ? '#DADADA' : 'red' %>;
+              
+            // codigo ruby + javaScript
+            <% msg = Time.now < 12 ? "Bom dia!" : "Olá!!!" %>
+            alert("<%= msg %>");
+            
+    - Compilando assets para colocar em produção
+            
+            rails -T assets
+        
+    - Biblioteca de terceiros (.js Vendor)
+              
+            * notify.js <https://notifyjs.jpillora.com/>
+    
+    - **rails-assets.org** (transforma as bibliotecas .js em gems)
+            
+            1. adiciona a gem
+            2. adiciona o require no arquivo .js
+    
+    - YARN 
+        <br>Gerenciador de pacotes .js
+        <br><br>
+        > yarn add "nome da lib.js"<br><br>
+        yarn install #Quando a node_modules desaparece
+        

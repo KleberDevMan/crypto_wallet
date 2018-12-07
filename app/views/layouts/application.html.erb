@@ -7,7 +7,6 @@
 
   <!--  import CSS-->
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-  <%= stylesheet_link_tag 'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
   <%= stylesheet_link_tag params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
 
   <!--  import JavaScript-->
@@ -16,12 +15,13 @@
 </head>
 
 <body>
-<h1 class="text_violeta">Cabeçalho público - <%= params[:controller] %></h1>
 
-<fieldset>
+<div class="container-fluid">
+  <h1 class="text_violeta">Cabeçalho público - <%= params[:controller] %></h1>
   <%= yield %>
-</fieldset>
+  <h1 class="text_violeta">Rodapé público</h1>
+</div>
 
-<h1 class="text_violeta">Rodapé público</h1>
+<script>$.notify("Funcionou!", "success");</script>
 </body>
 </html>

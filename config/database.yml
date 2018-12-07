@@ -7,14 +7,14 @@ default: &default
 
 development:
   <<: *default
-  database: app_para_testes_postgresql_development
+  database: coins_development
 
 test:
   <<: *default
-  database: app_para_testes_postgresql_test
+  database: coins_test
 
 production:
   <<: *default
-  database: app_para_testes_postgresql_production
-  username: app_para_testes_postgresql
-  password: <%= ENV['APP_PARA_TESTES_POSTGRESQL_DATABASE_PASSWORD'] %>
+  database: coins_production
+#  username: postgres
+#  password: <%= ENV['COINS_PRODUCTION'] %>
