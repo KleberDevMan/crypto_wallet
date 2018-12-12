@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff7731eb-fec4-4f48-8998-ce9058aed577" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/locales/en-models.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/coins/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/coins/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/coins/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/coins/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/coins/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/coins/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/coins/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/coins/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/coins/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/coins/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/layout_adm.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/layout_adm.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mining_types/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mining_types/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mining_types/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mining_types/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mining_types/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mining_types/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mining_types/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mining_types/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/mining_types/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/mining_types/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/welcome/_menu.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/_menu.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/pt-BR.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/pt-BR.yml" afterDir="false" />
-    </list>
+    <list default="true" id="ff7731eb-fec4-4f48-8998-ce9058aed577" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -473,12 +452,12 @@
       <workItem from="1544128128304" duration="1606000" />
       <workItem from="1544198156498" duration="3590000" />
       <workItem from="1544202358995" duration="12282000" />
-      <workItem from="1544638866870" duration="9666000" />
+      <workItem from="1544638866870" duration="9909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61765000" />
+    <option name="totallyTimeSpent" value="62008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
