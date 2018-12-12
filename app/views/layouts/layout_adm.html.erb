@@ -14,27 +14,25 @@
   <%= javascript_include_tag params[:controller], 'data-turbolinks-track': 'reload' %>
 </head>
 
+<!--menu-->
 <ul class="nav justify-content-end">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
+    <%= link_to('Home', root_path, class: 'nav-link') %>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+    <%= link_to('Português', root_path(locale: 'pt-BR'), class: 'nav-link') %>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Disabled</a>
+    <%= link_to('English', root_path(locale: 'en'), class: 'nav-link') %>
   </li>
 </ul>
 
-<h1 class="cabecalho_azul">Cabeçalho privado - <%= params[:controller] %></h1>
+<!--<h1 class="cabecalho_azul">Cabeçalho privado - <%#= params[:controller] %></h1>-->
 
-<fieldset>
+<div class="container-fluid">
   <%= yield %>
-</fieldset>
+</div>
 
-<h1 class="cabecalho_azul">Rodapé privado</h1>
+<!--<h1 class="cabecalho_azul">Rodapé privado</h1>-->
 
 </html>

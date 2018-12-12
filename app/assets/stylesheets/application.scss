@@ -14,14 +14,15 @@
  *= require bootstrap/dist/css/bootstrap
  */
 
-.text_violeta{
-    font-family: "Abyssinica SIL", serif;
-    color: blueviolet;
-}
 .cabecalho_azul{
     font-family: "Abyssinica SIL", serif;
     color: darkblue;
 }
 body{
     background-image: asset-url('rails.jpg');
+}
+.anotation{
+  font-size: 80%;
+  color: #2E2F30;
+  font-family: FreeMono, monospace;
 }

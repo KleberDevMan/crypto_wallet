@@ -1,43 +1,35 @@
 <div class="jumbotron">
-  <h1 class="display-4">Seja bem vindo!</h1>
-  <p class="lead">Esté é o Crypto Wallet, uma app para você cadastrar e acompanhar as suas crypto moedas.</p>
+  <h1 class="display-4"><%= t('welcome') %></h1>
+  <p class="lead"><%= t('messages.welcome') %></p>
   <hr class="my-4">
-  <p>Para começar selecione uma das opções abaixo</p>
+  <p><%= t('messages.menu') %></p>
   <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Moedas</a>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Tipos de Mineração</a>
+    <%= render "menu" %>
   </p>
 </div>
 
-<p>
-<ul>
-  <li><%#= link_to('Idioma Português', '/?locale=pt-BR') %><%= link_to 'Idioma Português', root_path(locale: 'pt-BR') %></li>
-  <li><%= link_to('Idioma English', root_path(locale: 'en')) %></li>
 
-</ul>
-</p>
+<!--Area de testes----------------------------->
+<br><br><br>
 
-<legend><h1>Seja bem vindo!</h1></legend>
+<p class="anotation">O idioma usado nessa aplicação é: <b><%= t('actual_locale') %></b></p>
+<p class="anotation">Palavra 1: <b><%= t('hello') %></b></p>
+<p class="anotation"> Data: <b><%= l(Date.today) %></b></p>
 
-<p>O idioma usado nessa aplicação é: <b><%= t('actual_locale') %></b></p>
-<p>Palavra 1: <b><%= t('hello') %></b></p>
-<p> Data: <b><%= l(Date.today) %></b></p>
 
-<p>
+<p class="anotation">
   <%= @parametro_url %>
 </p>
 
-<%= render "menu" %>
-
-<p> A soma é: <b><%= 1 + 1 %></b></p>
-<p> Seu nome de tráz para frente é: <b><%= "Kleber".reverse %></b></p>
+<p class="anotation"> A soma é: <b><%= 1 + 1 %></b></p>
+<p class="anotation"> Seu nome de tráz para frente é: <b><%= "Kleber".reverse %></b></p>
 
 <% a = "variavel a" %>
-<p>Imprimindo: <b><%= a %></b></p>
+<p class="anotation">Imprimindo: <b><%= a %></b></p>
 
 
-<p>
-  Você está em ambiente de: <strong><%= ambiente_rails %></strong>
-</p>
+<p class="anotation">Você está em ambiente de: <strong><%= ambiente_rails %></strong></p>
 
-<p><b><%= @var_sessao %></b></p>
+<p class="anotation"><b><%= @var_sessao %></b></p>
+
+<!---------------------------------------------------->
