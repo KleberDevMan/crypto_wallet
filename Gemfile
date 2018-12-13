@@ -15,6 +15,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'tty-spinner'
 gem 'rails-i18n', '~> 5.1'
 
+gem 'webpacker'
 # # .js assets
 # source 'https://rails-assets.org' do
 #   gem 'rails-assets-jquery'
