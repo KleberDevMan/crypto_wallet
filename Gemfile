@@ -22,6 +22,8 @@ gem 'webpacker'
 #   gem 'rails-assets-notifyjs'
 # end
 
+gem 'tty-spinner'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # gem 'sqlite3'

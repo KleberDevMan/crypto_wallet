@@ -157,3 +157,8 @@ terceiros
         > yarn add "nome da lib.js"<br><br>
         yarn install #Quando a node_modules desaparece
         
+----
+Criar (View + Controller)<br>
+> rails g controller welcome index
+
+        
