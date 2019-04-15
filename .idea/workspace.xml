@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff7731eb-fec4-4f48-8998-ce9058aed577" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/materialize/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/materialize/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/materialize/exp1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/materialize/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ff7731eb-fec4-4f48-8998-ce9058aed577" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -394,31 +388,30 @@
       <workItem from="1544202358995" duration="12282000" />
       <workItem from="1544638866870" duration="10207000" />
       <workItem from="1544715390396" duration="4851000" />
-      <workItem from="1547140405604" duration="5454000" />
+      <workItem from="1547140405604" duration="6329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72611000" />
+    <option name="totallyTimeSpent" value="73486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25124517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25124517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3174946" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3174946" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997233" weight="0.22354212" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4997233" visible="true" weight="0.22354212" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002767" side_tool="true" weight="0.325054" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
