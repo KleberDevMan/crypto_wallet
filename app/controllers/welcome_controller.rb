@@ -1,5 +1,7 @@
 class WelcomeController < ApplicationController
   def index
+
+    
     # ARMAZENA COOKIE (NAVEGADOR)
     cookies[:curso] = "Curso de Ruby on Rails - Jackson Pires [COOKIE]"
 
